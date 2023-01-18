@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Solar Energy</title>
+
+     <!-- Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--FONT-AWESOME CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="aboutus.css">
+    <!-- Swiper -->
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+</head>
+<body>
+    
+    <header class="header" id="header">  
+        <nav class="nav container" id="nav">
+            <a href="./index.html" class="logo">LogoHere</a>
+            <div class="nav-mobile"> <!--Wrapper for mobile responsive-->
+            <ul class="list">
+                <li class="list-item">
+                    <a href="#home" class="list-link "> Home  </a>  
+                </li>
+                <li class="list-item">
+                    <a href="#services" class="list-link "> Services </a>   
+                </li>
+                <li class="list-item">
+                    <a href="#About-us" class="list-link current "> About us  </a>    <!-- class current is for the marker effect of selected link -->
+                </li>
+                <li class="list-item">
+                    <a href="#contact" class="list-link ">  Contact  </a>  
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link  lg-screen-hidden"> Get Started  </a>   <!--second class is for large screen to hide it-->
+                </li>
+            </ul>
+            </div>
+            
+            <a href="#" class="btn sm-screen-hidden">Get Started</a>   <!--second class is for small screen to hide -->
+
+            <div class="menu-toggle-icon lg-screen-hidden place-items-center" id="menu-toggle-icon">   <!--  3rd class is to used the flexbox-->
+            <i class="ri-menu-3-line menu-open-icon"> </i>    <!--using the remixicon cdn-->
+            <i class="ri-close-fill menu-close-icon"> </i>
+        </div>
+        </nav>
+    </header>
+
+    <!-- <div class="placeholder"></div>  just to test the scroll -->  
+
+
+  <!-- Start main -->
+<main class="main"> 
+        <!-- Start showcase -->
+        <section class="showcase section" id="home">
+            <div class="showcase-container container d-grid">
+            <div class="showcase-data order-2"> <!--second class for flexbox to order based on breakpoints-->
+                <span class="tagLine">Who we are</span>
+                <h1 class="title main-title">Renewable Energy for <span class="accent-text">Sustainable </span>  World  </h1>
+                <p class="description"> Our website is inspired by series of documentaries about our climate change, and one of the major answer  to this fast growing chaos is changing how we get our energy source. Energy is a major part of our ever fast changing civiliazation, from our transportation, food production, 
+                    to every devices in side our home all are realible to power and majority of this power came from coal powered plants that emits high volume of CO2 on a daily basis.  </p>
+                    <a href="#" class="btn">Discover more </a>
+            </div>  
+
+            <div class="image-group order-1 d-grid">  <!--wrapper for images,-->
+               <div class="image-box image-left"> <!--outer div for images so when the effect is applied. it will be contained in the range-->
+                <img src="./images/showcase1.jpg" alt="">
+               </div>  
+               <div class="image-box image-center"> 
+                <img src="./images/showcase3.jpg" alt="">
+               </div>  
+               <div class="image-box image-right"> 
+                <img src="./images/showcase2.jpg" alt="">
+               </div>  
+
+            </div>
+        </div>
+
+
+
+        </section>
+
+        <!-- End showcase -->
+
+        <!--clients Logos -->
+
+        <section class="container clients">
+
+
+            <div class="swiper clients-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide silde">
+                        <img src="images/company-logo-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide silde">
+                        <img src="images/company-logo-2.png" alt="">
+                    </div>
+                    <div class="swiper-slide silde">
+                        <img src="images/company-logo-3.png" alt="">
+                    </div>
+                    <div class="swiper-slide silde">
+                        <img src="images/company-logo-4.png" alt="">
+                    </div>
+                    <div class="swiper-slide silde">
+                        <img src="images/company-logo-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+
+
+
+
+        </section>
+
+
+       <!--End of Company Logos -->
+
+       <!-- VALUE -->
+
+       <section class="value-section" id="value">
+        <div class="value__container sec-container d-grid">
+            <div class="value__images  ">
+            <div class="value__orbe"></div>
+            <div class="value__img">
+                <img src="images/solar-work.jpg" alt="">
+        </div>
+        </div>
+           
+            <div class="value__content order-2">
+                <div class="value__data">
+                    <span class="section__subtitle">Our Value</span>
+                    <h2 class="section__title">
+                       Where technology meets business<span>.</span>
+                    </h2>
+                    <p class="value__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                </div>
+
+                <div class="value__accordion">
+                    <div class="value__accordion-item">
+                        <header class="value__accordion-header">
+                        
+                            <i class='ri-focus-3-line value__accordion-icon'></i>
+                            <h3 class="value__accordion-title">
+                                Vision                            </h3>
+                            <div class="value__accordion-arrow">
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </header>
+
+                        <div class="value__accordion-content">
+                            <p class="value__accordion-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value__accordion-item">
+                        <header class="value__accordion-header">
+                            <i class='ri-arrow-go-forward-line value__accordion-icon'></i>
+                            <h3 class="value__accordion-title">
+                                Mission
+                            </h3>
+                            <div class="value__accordion-arrow">
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </header>
+
+                        <div class="value__accordion-content">
+                            <p class="value__accordion-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value__accordion-item">
+                        <header class="value__accordion-header">
+                            <i class='ri-file-paper-2-line value__accordion-icon' ></i>
+                            <h3 class="value__accordion-title">
+                                Motto
+                            </h3>
+                            <div class="value__accordion-arrow">
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </header>
+
+                        <div class="value__accordion-content">
+                            <p class="value__accordion-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value__accordion-item">
+                        <header class="value__accordion-header">
+                            <i class='ri-lock-line value__accordion-icon'></i>
+                            <h3 class="value__accordion-title">
+                                Security
+                            </h3>
+                            <div class="value__accordion-arrow">
+                                <i class='bx bxs-down-arrow'></i>
+                            </div>
+                        </header>
+
+                        <div class="value__accordion-content">
+                            <p class="value__accordion-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- history section starts  -->
+
+<section class="history-section">
+
+
+    <div class="row">
+        <div class="map"> 
+            <img class="turbine2" src="images/history1.jpg" alt="">
+        </div>
+
+        <div class="form"> <!--second class for flexbox to order based on breakpoints-->
+            <div class="container">
+           <div class="value__data">
+            <span class="tagLine">Our History</span>
+            <h2 class="section__title">
+                Source of energy for the better tomorrow.
+            </h2>
+            <p class="value__description">
+                  dolor sit, amet consectetur adipisicing elit. Ab aliquam animi a nam, illum aut culpa molestiae asperiores mo
+                  llitia sunt placeat unde iure odit, in, perferendis fugit? Sit alias magni atque quaerat minus voluptates per
+                  olore quae aut doloribus! Quasi atque ipsa nesciunt eius fugit, provident minima! Provident, rem? Lorem ipsum
+                 
+        </div>  
+        </div>
+    </div>
+
+        
+    </div>
+
+</section>
+
+<!-- history section ends -->
+
+<!-- our team section starts  -->
+
+<section id="ourteam" class="ourteam">
+    <div class="container">
+
+    <span class="tagLine">MEET OUR TEAM</span>
+    <h2 class="section__title"> Teamwork makes the dream work. </h2>
+    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolor mollitia illo vero, accusantium in quasi
+         doloribus aspernatur asperiores laudantium alias, veritatis necessitatibus odio dolorum minus vitae aperiam animi fugit.</p>
+        </div>
+    
+    <div class="card-container">
+    
+        <div class="card">
+            <img src="images/Jett.png" alt="">
+            <h3>Jett Valencia</h3>
+            <span class="tagLine">FOUNDER</span>
+            <div class="icons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-github"></a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="images/NicoVer2.png" alt="">
+            <h3>Nico Occiano</h3>
+            <span class="tagLine">DEVELOPER</span>
+            <div class="icons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-github"></a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="images/Walterwhite.jpeg" alt="">
+            <h3>Christian Manuel</h3>
+            <span class="tagLine">DEVELOPER</span>
+            <div class="icons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-github"></a>
+            </div>
+        </div>
+    
+       
+    
+    </div>
+    
+    
+    </section>
+    
+    <!-- our team section ends -->
+
+    <!-- promote section starts  -->
+
+<section class="promote" id="promote">
+
+    <div class="swiper promote-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(images/promote1.jpg) no-repeat;">
+                    <div class="content">
+                        <span class="span2">The better source of </span>
+                        <h3 class="ver2">energy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box " style="background: url(images/promote2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>Make the earth</span>
+                        <h3>green</h3>
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box second  " style="background: url(images/promote3.jpg) no-repeat;  ">
+                    <div class="content">
+                        <span>Keep your environment </span>
+                        <h3>clean</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        <a href="#" class="btn">get started</a>
+                    </div>
+                </div>
+            </div>
+            
+    
+
+            
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- promote section ends -->
+
+
+   
+
+       
+
+
+    <!-- JS script -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- Custom script -->
+
+<script src="aboutus.js"></script>    
+
+
+</body>
+</html>
