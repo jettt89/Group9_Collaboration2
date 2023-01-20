@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Phoenix Energy</title>
 </head>
+
 <body class="phoenix">
-   <section class="landing container-fluid">
-    <video src="background3.mp4"width="100%" autoplay loop muted></video>
   
+<<<<<<< HEAD
         <header class="headers container">
           <h1 class="logo">
             <i class="fa-brands fa-phoenix-squadron fa-lg green"></i>Phoenix Solar Energy</h1>
@@ -31,6 +31,46 @@
                 </ul>
               </nav>
             </header>
+=======
+  
+   <section class="landing container-fluid">
+    
+    <video src="background3.mp4"width="100%" autoplay loop muted></video>
+
+    <header class="header" id="header">  
+      <nav class="nav container" id="nav">
+          <a href="#home" class="logo"><i class="fa-brands fa-phoenix-squadron fa-lg green"></i> Phoenix Solar Energy</a>
+          <div class="nav-mobile"> <!--Wrapper for mobile responsive-->
+          <ul class="list">
+              <li class="list-item">
+                  <a href="index.html" class="list-link "> Home  </a>  
+              </li>
+              
+              <li class="list-item">
+                  <a href="#aboutus.html" class="list-link current "> About   </a>    <!-- class current is for the marker effect of selected link -->
+              </li>
+              <li class="list-item">
+                  <a href="products.html" class="list-link ">  Services </a>   
+              </li>
+              <li class="list-item">
+                  <a href="#contact" class="list-link ">  Contact  </a>  
+              </li>
+              <li class="list-item">
+                  <a href="#" class="list-link  lg-screen-hidden"> Get Started  </a>   <!--second class is for large screen to hide it-->
+              </li>
+          </ul>
+          </div>
+          
+          <a href="#" class="btn sm-screen-hidden">Get Started</a>   <!--second class is for small screen to hide -->
+
+          <div class="menu-toggle-icon lg-screen-hidden place-items-center" id="menu-toggle-icon">   <!--  3rd class is to used the flexbox-->
+          <i class="ri-menu-3-line menu-open-icon"> </i>    <!--using the remixicon cdn-->
+          <i class="ri-close-fill menu-close-icon"> </i>
+      </div>
+      </nav>
+  </header>
+        
+>>>>>>> 69aa9a71220547ef101129cdc1dfbd574707a02c
     <div class="overlay"></div>
 
     <div class="text">
@@ -42,7 +82,7 @@
             <a class="btn" href="#">Products</a>
       </div>
   </div>
-   <!-- -SERVICES -->
+
    <section class="services container-lg">
      
       <div class="count">
@@ -113,7 +153,7 @@
             <br>
             <p class="desc">Shortly, the Sun will be the ultimate source of energy and also wind and Hydro-Electric, they are abundant and they are around us!  These energy harvesting solutions are one of the most popular forms of energy source today, and it also has a bright future!</p>
             <br>
-            <button class="btn btn-warning">Discover more</button>
+            <button class="btn">Discover more</button>
 
         </article >
       
@@ -132,16 +172,14 @@
        
       </article>
   </div>
-
   </section>  
-
-
 <!------ OUR SOLUTION -->
 <section class="solution container-fluid">
+    <div class="solution-overlay"></div>
         <div class="solution-header container">
           <div class="what-we-offer-desc">
-            <p class="solution-our">WHAT WE OFFER</p>
-            <h3>Make the energy choice that's good for homes, businesses - and the planet!</h3>
+            <p class="solution-our">OUR SOLUTION</p>
+            <h3>Keep your environment clean make the earth green.</h3>
             </div>
             <br>
         <p class="solution-para">We help you crack your strategic goals and present you with one sweet solution </p>
@@ -151,27 +189,30 @@
 
     <div class="container-lg solution-two-images">
       
-          <div class="row">
+          <div class="row hover">
             <div class="col-md-6 col-sm-12">
+            
               <div class="card">
-                <img src="residential.png" alt="Card image cap">
+                <div class="services-overlay"></div>
+               <figure><img src="couple.jpg" alt="Card image cap"></figure>
                 <div class="card-body">
                     <i class="fa-solid fa-city"></i>
                   <h5 class="card-title">Residential</h5>
                   <p class="card-text">We have range of products that will benefit you from switching your House grid system into sustaitable off-grid solutions!</p>
-                  <a href="#" class="btn btn-warning">Learn more
+                  <a href="#" class="btn">Learn more
                   </a>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-sm-12">
               <div class="card">
-                <img src="commercial.png" alt="Card image cap">
+                <figure>
+                  <div class="services-overlay"></div><img src="partner.jpg" alt="Card image cap"></figure>
                 <div class="card-body"> 
                     <i class="fa-solid fa-shop"></i>
                   <h5 class="card-title">Commercial</h5>
                   <p class="card-text">We provide industrial scale solutions that will fit your business need and also hybrid systems that can make your energy storage sustainable!</p>
-                  <a href="#" class="btn btn-warning">Learn more</a>
+                  <a href="#" class="btn">Learn more</a>
                 </div>
               </div>
             </div>
@@ -191,39 +232,39 @@
         <br>
         <br>
         <article>
-            <div class="row">
+            <div class="row what-hover">
                 <div class="col-lg-4 col-md-4 col-sm-12">
                   <div class="card ">
-                    <img src="solar-panel.jpg" alt="">
+                    <figure><img src="solar-panel.jpg" alt=""></figure>
                     <div class="card-body">
                         <i class="fa-solid fa-minus"></i>
                       <h5 class="card-title">Solar</h5>
                       <p class="card-text">Solar Panels, Solar-kits, Hybrid Setup, and many more.</p>
-                      <a href="#" class="btn btn-warning">Learn more...</a>
+                      <a href="#" class="btn">Learn more...</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12
                 ">
                   <div class="card">
-                    <img src="wind-turbine2.jpg" alt="">
+                    <figure><img src="wind-turbine2.jpg" alt=""></figure>
                     <div class="card-body">
                         <i class="fa-solid fa-minus"></i>
                       <h5 class="card-title">Wind turbine</h5>
                       <p class="card-text">Spiral and Vertical wind turbines, Industrial Blade-type wind turbines.</p>
-                      <a href="#" class="btn btn-warning">Learn More...</a>
+                      <a href="#" class="btn">Learn More...</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12
                 ">
                   <div class="card">
-                    <img src="hydroelectric.jpg" alt="">
+                    <figure><img src="hydroelectric.jpg" alt=""></figure>
                     <div class="card-body">
                         <i class="fa-solid fa-minus"></i>
                       <h5 class="card-title">Hydro-Electric</h5>
                       <p class="card-text">Hydro Turbine Generator for industrial setup! and many more.</p>
-                      <a href="#" class="btn btn-warning">Learn More...</a>
+                      <a href="#" class="btn">Learn More...</a>
                     </div>
                   </div>
                 </div>
@@ -305,7 +346,7 @@
 <!-- --WE NEED A SOLAR SECTION -->
     <section class="we-need container-xl">
       <div class="row">
-        <div class="imagess col-lg-6 col-md-6 col-sm-12">
+        <div class="imagess col-lg-6 col-md-5 col-sm-12">
           <img src="shine-images.png" alt="">
         </div>
         <article class="we-need-desc col-lg-6 col-md-6 col-sm-12">
@@ -340,7 +381,7 @@
         <img src="worker.jpg" alt="">
       </div> 
       <article class="choose-element col-lg-12">
-        <div class="row">
+        <div class="row mx-2 px-2">
             <article class="col">
               <i class="fa-sharp fa-solid fa-leaf"></i>
               <h2>Eco Technology</h2>
@@ -350,7 +391,7 @@
               <i class="fa-sharp fa-solid fa-microchip"></i>
               <h2>Smart Technology</h2>
               <p>
-               We uses big data analysis, machine learning, and artificial intelligence to provide cognitive awareness to the objects and product applications that will best fit from daily home needs to industrial scale applications.</p>
+               We uses big data analysis, machine learning, and artificial intelligence to provide cognitive awareness to the objects and product applications.</p>
             </article>
         </div>
       </div>      
@@ -420,6 +461,10 @@
     </div>
   </div>
 </footer>
+
+
 </body>
 <script src="js/bootstrap.bundle.js"></script>
+
+<script src="home.js"></script>  
 </html>
