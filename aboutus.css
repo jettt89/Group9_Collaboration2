@@ -427,11 +427,13 @@ nav.active .menu-close-icon{
 
 .tagLine{
     display: inline-block;  /* to make editing of our margin possible */
-    font-size:  var(--font-size-xsm);
-    font-weight: var(--font-weight-bold);
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+
     text-transform: uppercase;
     color: var(--accent-clr);
     margin-bottom: var(--margin-sm);
+    font-family: 'Titillium Web', sans-serif;
 
 }
 
@@ -441,9 +443,11 @@ nav.active .menu-close-icon{
 }
 
 .main-title{
-    font-size: var(--font-size-lg);
+    font-size: 4.6rem;
     color: black;
-
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.2em;
+    letter-spacing: -1px;
 }
 
 .accent-text{
@@ -452,6 +456,10 @@ nav.active .menu-close-icon{
 
 .description{
     margin-bottom:var(--margin-lg);
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #868686;
 }
 
 
