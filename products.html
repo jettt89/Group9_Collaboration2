@@ -78,7 +78,7 @@
           <h3>4800W 48V Complete MPPT Off Grid Solar Panel Kit</h3>
 
          <!-- Button trigger modal -->
-    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    <button type="button" class="btn " id="productbutton" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
        Specifications
     </button>
 <span class="tagLine"><h1>US $7,235 <a href="#" class="fa-solid fa-cart-shopping fa-2x"></a></h1> 
@@ -94,7 +94,7 @@
         <img  src="products/windturbine/wind specs.png" alt="" >
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+        <button type="button" id="close" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -115,7 +115,7 @@
           <img src="/products/windturbine/ac84a57e2e8e96ccd1b8182586577e39.jfif" alt="">
           <h3>Wind Energy Generator Wind Turbine 600W/700W</h3>
           
-          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <button type="button" id="productbutton" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Specifications
           </button>
           <span class="tagLine"><h1>US $5,251 <a href="#" class="fa-solid fa-cart-shopping fa-2x"></a></h1> 
@@ -131,11 +131,12 @@
                   <img  src="products/windturbine/wind specs.png" alt="" >
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                  <button type="button"  id="close" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
           </div>
+          
           
                    
           <div class="icons">
@@ -151,7 +152,7 @@
       <div class="card">
           <img src="/products/hydro/6650.jpg" alt="">
           <h3>Hydraulic Turbine Generator 250KW </h3>
-          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <button type="button"  id="productbutton" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Specifications
           </button>
           <span class="tagLine"><h1>US $88,500 <a href="#" class="fa-solid fa-cart-shopping fa-2x"></a></h1> 
@@ -167,7 +168,7 @@
                   <img  src="products/windturbine/wind specs.png" alt="" >
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                  <button type="button" class="btn btn-primary" id="close" data-bs-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -192,6 +193,10 @@
   
   
 <!-- PRODUCTS OFFERED ENDS  -->
+<!--------------------------------------------------------------->
+
+
+<!---------------------------------------------------------------->
 
 <!-- SERVICES OFFERED STARTS  -->
 
@@ -209,25 +214,75 @@
       <div class="card">
         <span class="tagLine"><h1>INSTALLATION</h1></span>
           <img src="/products/services/solar-installation-safety-764x573.jpg" alt="">
-          <h5>Get referred to top local installers within your area.</h5>
-          <a href="#" class="btn">Get  referrals! </a>
+         
+          <p class="details">Get referred to top local installer within your area</p>
+          <button type="button" id="productbutton" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            DETAILS
+          </button>
+        <!------------------------------------>
+        <div class="modal fade  modal-xl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen-lg-down modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            
+              <div class="modal-body">
+                <img  src="products/windturbine/wind specs.png" alt="" >
+              </div>
+              <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          
      
       </div>
 
       <div class="card">
         <span class="tagLine"><h1>MAINTENANCE</h1></span>
           <img src="/products/services/wind-turbine-maintenance.png" alt="">
-          <h5>Request maintenance package to wide range technicians that we can vouch!</h5>
-          
-          <a href="#" class="btn">Request maintenance! </a>
+         
+          <p class="details" >Request maintenance  range technicians that we can vouch</p>
+          <button type="button" id="productbutton" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            DETAILS
+          </button>
+        <!------------------------------------>
+        <div class="modal fade  modal-xl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen-lg-down modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            
+              <div class="modal-body">
+                <img  src="products/windturbine/wind specs.png" alt="" >
+              </div>
+              <div class="modal-footer">
+                <button type="button"  id="close" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
          
       </div>
   
       <div class="card">
         <span class="tagLine"><h1>CONSULTATION</h1></span>
           <img src="/products/services/Strategic-Energy-Management-1024x683.jpg" alt="">
-          <h5>Speak to our dedicated energy consultants. </h5>
-          <a href="#" class="btn">Talk to us! </a>
+          <p class="details">Speak to our decicated consultants for concerns</p>
+          <button type="button" id="productbutton" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            DETAILS
+          </button>
+        <!------------------------------------>
+        <div class="modal fade  modal-xl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen-lg-down modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            
+              <div class="modal-body">
+                <img  src="products/windturbine/wind specs.png" alt="" >
+              </div>
+              <div class="modal-footer">
+                <button type="button" id="close" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       
       </div>
   </div>

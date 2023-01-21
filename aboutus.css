@@ -943,7 +943,32 @@ nav.active .menu-close-icon{
   }
   
  
+ /* PRODUCTS CSS *************************/
+  
+ #productbutton{
+  font-size: 2rem;
+  margin-top: 1em;
+  background-color: #f6d707;
+}
+#productbutton:hover{
+  background: #1A3240;
+  color: white;
+}
+#close{
+  background-color: #f6d707;
+  font-size: 2rem;
+  color: black;
+}
+#close:hover{
+  background: #1A3240;
+  color: white;
+}
+.details{
 
+  margin-top: 1em;
+}
+ /* PRODUCTS CSS *************************/
+/**FOOTER**/
 
 
 
@@ -1348,9 +1373,7 @@ nav.active .menu-close-icon{
     }
 
   
-  
 
-  
 
 
 }
