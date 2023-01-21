@@ -794,10 +794,11 @@ i{
      height: 60vh;
      right: 0;
      left: 0;
-     opacity: .5;
-     background: #6eb846;
+     background-color:transparent;
+     background-image: linear-gradient(#1963a6 0%, #7694095e 70%);
+      transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+     opacity: 1;
      z-index: 1;
-     padding: 0;
      
  }
  .lets-shine-overlayz{
