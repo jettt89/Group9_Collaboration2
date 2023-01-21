@@ -783,7 +783,7 @@ nav.active .menu-close-icon{
   
   .promote.box .content p {
     line-height: 2;
-    color: #10221b;
+    color: #10221b !important; 
     font-size: 1.5rem;
     padding: 1rem 0;
   }
