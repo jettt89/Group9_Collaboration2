@@ -382,8 +382,8 @@ nav.active .menu-close-icon{
   padding: 1rem 2.5rem;
   transition: background-color .25s;
   margin-bottom: var(--margin-md);
-}
 
+}
 
 .footer{
     position: relative;
