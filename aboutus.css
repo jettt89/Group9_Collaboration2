@@ -941,7 +941,16 @@ nav.active .menu-close-icon{
   .bottom-details .bottom_text a{
     margin-right: 10px;
   }
-  
+  /* MODAL CSS **************************/
+    .modal-title{
+      font-size:  3rem;
+      text-align: center;
+      font-weight: 700;
+      margin: auto;
+      color: black;
+    
+    }
+  /* MODAL CSS **************************/
  
  /* PRODUCTS CSS *************************/
   
@@ -969,11 +978,6 @@ nav.active .menu-close-icon{
 }
  /* PRODUCTS CSS *************************/
 /**FOOTER**/
-
-
-
-
-
 /* Media queries */
 
 @media (max-width: 1200px) {

@@ -326,7 +326,7 @@ i{
    z-index: 10;
  }
  .text .btn{
-   padding: .7em 5em;
+   padding: .9em 6em;
    font-size: 1.2rem;
    font-weight: 500;
    background: none;
@@ -334,15 +334,21 @@ i{
    z-index: 2;
    color: white;
  }
- .hovered{
-     background: gold;
- 
+ #hovered{
+  background: #f6d707;
+  color: black;
+  border: none;
+ }
+
+
+ #hovered:hover{
+  background: #1A3240;
+ color: white;
  }
  .text a:hover{
-   background: goldenrod;
+  background: #1A3240;
    cursor: pointer;
    color: white;
-   
    z-index: 2;
  }
 
@@ -817,13 +823,17 @@ i{
      height: 60vh;
  }
  .lets-shine button{
-     
+  background: #f6d707;
      padding: .7em 2.5em .7em 2.5em;
      font-size: 1.2rem;
      border-radius: 10px;
     border: none;
  
  }   
+ .lets-shine button:hover{
+  background-color: #1a3240;
+ color: white;
+} 
  
  
  
@@ -862,9 +872,14 @@ i{
          color: gray;
  }
  .we-need-cont button{
+    background: #f6d707;
      padding: 10px;
      align-items: center;
      left: 20px;
+ }
+ .we-need-cont button:hover{
+  background-color: #1a3240;
+  color: white;
  }
  
  
@@ -938,6 +953,7 @@ i{
  /* FOOTER ***********************/
  
  .footer{
+    margin-top: 5em;
     position: relative;
     background: #1A3240;
     width: 100%;
