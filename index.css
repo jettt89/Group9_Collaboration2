@@ -881,6 +881,12 @@ i{
   background-color: #1a3240;
   color: white;
  }
+ @media (max-width:760px) {
+    .we-need{
+        display: flex;
+        flex-direction: column;
+    }
+ }
  
  
  /* WHY CHOOSE US ***************************/
